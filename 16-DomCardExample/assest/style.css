@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Noto Sans,'sans-serif;
+}
+
+.nike {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    border-radius: 30px;
+
+}
+
+
+.nike_1 {
+    padding-left: 40px;
+    height: 350px;
+    width: 530px;
+    background-color: yellow;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.nikeicon img {
+    height: 120px;
+    width: 130px;
+    color: white;
+}
+
+.airstructure {
+    color: white;
+    width: 400px;
+    font-size: 43px;
+}
+
+p {
+    color: white;
+    padding-top: 10px;
+    width: 400px;
+}
+
+.img {
+    background-color: yellow;
+}
+
+.img img {
+    width: 450px;
+    height: 450px;
+    margin-left: 200px;
+    margin-top: -290px;
+}
+
+
+
+
+.nike_2 {
+    height: 350px;
+    width: 530px;
+    background-color: white;
+    padding-left: 40px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.nike_2_h1 {
+    color: black;
+    padding-top: 20px;
+}
+
+.new {
+    position: absolute;
+    background-color: green;
+    padding: 2px 20px;
+    border-radius: 7px;
+    color: white;
+    margin-left: 300px;
+    margin-top: -30px;
+
+}
+
+h4 {
+    padding-top: 15px;
+    
+}
+
+.star_icon {
+    color: black;
+    padding-top: 15px;
+}
+
+#gray {
+    color: gray;
+}
+
+h3 {
+    padding-top: 25px;
+}
+
+.size_text {
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+
+}
+
+.nine {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    padding-left: 6px;
+}
+
+.colors_btn {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.many {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: blue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    margin-left: 310px;
+    margin-top: -25px;
+
+
+}
+
+.many_text {
+    color: gray;
+}
+
+.usd{
+    color: white;
+    padding-left: 10px;
+}

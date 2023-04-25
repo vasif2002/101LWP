@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="btn">
+                <button class="sun"><i class="fa-regular fa-sun"></i></button>
+                <button class="moon"><i class="fa-regular fa-moon"></i></button>
+            </div>
+            <div class="card1">
+                <div class="card2">
+                    <p class="metn">Mastercard</p>
+                    <img src="./assest/img/chip_1.jpg" alt="#">
+                    <p class="nomre">1234 4321 5678 8765</p>
+                </div>
+
+                <div class="card3">
+                    <div class="text">
+                        <p class="valid">Valid through</p>
+                        <p class="tarix">08/26</p>
+                        <p class="ad">John Smith</p>
+                    </div>
+                    <div class="daire">
+                        <img class="daire" src="./assest/img/mastercard.png" alt="#">
+                    </div>
+                </div>
+            </div>
+            <div class="mastercard"></div>
+        </div></div>
+
+
+
+
+    <script> 
+        const container = document.querySelector(".container");
+        const btn =document.querySelector(".btn");
+        
+        btn.addEventListener("click", () =>{
+            container.classList.toggle("change");
+        } )
+    </script>
+</body>
+
+</html>

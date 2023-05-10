@@ -396,9 +396,39 @@
                         display: flex;
                         .card_text{
                             width: 50%;
+                            .card_features{
+                                color: #EF6D58;
+                            }
                         }
-                        .card_box{
-                            width: 50%;
+                        .card_box{  
+                            padding: 48px;
+                            .radios{
+                                width:80px;
+                                height:80px;
+                                background-color: #EF6C57;
+                                border-radius: 50%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                              
+                            }
+                            width: 336;
+                            height: 336px;
+                            background-color: #FFFFFF;
+                            border: 1px solid #F3D1BF;
+                            .professional{
+                                color: #391400;
+                                font-size: 24px;
+                            }
+                           
+                        }
+                        .accessibility{
+                            padding: 36px;
+                            width: 336px;
+                            height: 272px;
+                            background-color:#F2F2F2; 
+                            border: 1px solid #F3D1BF;
+                           
                         }
                     }
 

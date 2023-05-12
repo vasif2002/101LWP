@@ -676,4 +676,26 @@
     line-height: 20px;
     font-size: 10px;
   }
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.container .container_all {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.container .container_all .our_agency {
+  background-color: aqua;
+  width: 100%;
+  height: 100vh;
+}
+.container .container_all .our_agency .our_agency_text {
+  color: antiquewhite;
+}
+.container .container_all .our_agency .our_agency_table {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

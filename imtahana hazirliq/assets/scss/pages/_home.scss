@@ -1,0 +1,62 @@
+#section1{
+background-image: url("https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-banner.jpg.webp");
+width: 100%;height: 100vh;
+
+.qwe{
+  width: 400px;
+  height: 80px;
+  font-size: 30px;
+  background-color: rgb(190, 82, 9);
+   display: flex; justify-content: center;align-items: center; color: #faf8f8;
+  
+}
+.new{
+  display: flex;
+  justify-content: center; 
+  color: #faf8f8;
+
+
+}
+.asd{
+  .bsd{
+    display: flex;
+    gap: 30px;
+  }
+  .csd{
+    display: flex;
+    gap: 30px;
+  }
+  #btn{
+    background-color: rgb(223, 85, 6);
+    width: 150px;
+    height: 50px;
+  }
+}
+}
+.section2{
+  width: 100%;height: 100vh;
+  .boxlar1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;height: 20vh;
+    background-color: rgb(251, 255, 255);
+    div{
+      width: 20%;
+      height: 30vh;
+      background-color: black;
+    }
+  }
+
+  .boxlar2{
+   margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;height: 20vh;
+    background-color: rgb(251, 255, 255);
+    div{
+      width: 20%;
+      height: 30vh;
+      background-color: rgb(24, 11, 11);
+    }
+  }
+}

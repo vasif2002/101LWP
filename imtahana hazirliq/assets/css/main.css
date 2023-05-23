@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(238, 231, 228);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 500px;
+}
+#navbar .ad {
+  color: aqua;
+  font-size: 50px;
+}
+#navbar #nav_clic {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  font-size: 20px;
+}
+
+#section1 {
+  background-image: url("https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-banner.jpg.webp");
+  width: 100%;
+  height: 100vh;
+}
+#section1 .qwe {
+  width: 400px;
+  height: 80px;
+  font-size: 30px;
+  background-color: rgb(190, 82, 9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #faf8f8;
+}
+#section1 .new {
+  display: flex;
+  justify-content: center;
+  color: #faf8f8;
+}
+#section1 .asd .bsd {
+  display: flex;
+  gap: 30px;
+}
+#section1 .asd .csd {
+  display: flex;
+  gap: 30px;
+}
+#section1 .asd #btn {
+  background-color: rgb(223, 85, 6);
+  width: 150px;
+  height: 50px;
+}
+
+.section2 {
+  width: 100%;
+  height: 100vh;
+}
+.section2 .boxlar1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(251, 255, 255);
+}
+.section2 .boxlar1 div {
+  width: 20%;
+  height: 30vh;
+  background-color: black;
+}
+.section2 .boxlar2 {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(251, 255, 255);
+}
+.section2 .boxlar2 div {
+  width: 20%;
+  height: 30vh;
+  background-color: rgb(24, 11, 11);
+}/*# sourceMappingURL=main.css.map */
